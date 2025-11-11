@@ -1,0 +1,106 @@
+#toggleDarkMode:hover {
+  background-color: #005fa3;
+}
+
+/* Tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #0078d7;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f6fa;
+}
+
+tr:hover {
+  background-color: #e8f1fb;
+}
+
+/* Pesan jika tidak ada data */
+p {
+  text-align: center;
+  color: #666;
+}
+
+/* === MODE GELAP === */
+body.dark {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+body.dark .container {
+  background-color: #1e1e1e;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+body.dark h1 {
+  color: #4fa3ff;
+}
+
+body.dark #toggleDarkMode {
+  background-color: #4fa3ff;
+  color: #000;
+}
+
+body.dark #toggleDarkMode:hover {
+  background-color: #81b9ff;
+}
+
+body.dark table {
+  border-color: #333;
+}
+
+body.dark th {
+  background-color: #333;
+}
+
+body.dark tr:nth-child(even) {
+  background-color: #2a2a2a;
+}
+
+body.dark tr:hover {
+  background-color: #3a3a3a;
+}
+/* Tombol area atas */
+.top-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Tombol tambah data */
+.btn-new {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-new:hover {
+  background-color: #1e7e34;
+}
+
+/* DARK MODE untuk tombol baru */
+body.dark .btn-new {
+  background-color: #5cd97f;
+  color: #000;
+}
+
+body.dark .btn-new:hover {
+  background-color: #86e9a5;
+}
